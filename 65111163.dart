@@ -168,10 +168,7 @@ void main() {
         while (roomType == null) {
           stdout.write('Enter room type (Single/Double/Suite): ');
           var inputRoomType = stdin.readLineSync();
-          if (inputRoomType != null &&
-              (inputRoomType.toLowerCase() == 'single' ||
-                  inputRoomType.toLowerCase() == 'double' ||
-                  inputRoomType.toLowerCase() == 'suite')) {
+          if (inputRoomType != null && (inputRoomType.toLowerCase() == 'single' || inputRoomType.toLowerCase() == 'double' || inputRoomType.toLowerCase() == 'suite')) {
             roomType = inputRoomType;
           } else {
             print('Invalid room type. Please enter Single, Double, or Suite.');
@@ -249,4 +246,4 @@ void main() {
     }
   }
 }
-// Thank Document&Stack Overflow
+// (I can explain this thing for sure.)
